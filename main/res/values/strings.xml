@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IMOVI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">IMOVI ENCRYPTION 2.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_enc">Encrypt</string>
+    <string name="menu_dec">Decrypt</string>
+    <string name="menu_frlist">Friendslist</string>
+    <string name="menu_mypubkey">My Public Key</string>
+</resources>
