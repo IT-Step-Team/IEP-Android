@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_frlist">
+
+    <fragment
+        android:id="@+id/nav_frlist"
+        android:name="com.example.imovi.ui.friendskeys.MypublickeyFragment"
+        android:label="@string/menu_frlist"
+        tools:layout="@layout/fragment_frlist" />
+
+    <fragment
+        android:id="@+id/nav_enc"
+        android:name="com.example.imovi.ui.decrypt.DecryptFragment"
+        android:label="@string/menu_enc"
+        tools:layout="@layout/fragment_enc" />
+
+    <fragment
+        android:id="@+id/nav_dec"
+        android:name="com.example.imovi.ui.encrypt.EncryptFragment"
+        android:label="@string/menu_dec"
+        tools:layout="@layout/fragment_dec" />
+
+    <fragment
+        android:id="@+id/nav_mypubkey"
+        android:name="com.example.imovi.ui.encrypt.EncryptFragment"
+        android:label="@string/menu_mypubkey"
+        tools:layout="@layout/fragment_mypubkey" />
+
+</navigation>
